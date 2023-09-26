@@ -1,0 +1,14 @@
+<div class="Modal">
+    <ng-container *ngIf="showrectangle">
+        <div *ngFor="let i of numberArray" class="rectangle" [style.background-color]="colorValue"></div>
+    </ng-container>
+    
+    <ng-container *ngIf="showcircle">
+        <div *ngFor="let i of numberArray" class="circle" [style.background-color]="colorValue"></div>
+    </ng-container>
+    
+    <ng-container *ngIf="showrsquare">
+        <div *ngFor="let i of numberArray" class="square" [style.background-color]="colorValue"></div>
+    </ng-container>
+    
+</div>

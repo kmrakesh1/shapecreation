@@ -1,0 +1,12 @@
+<div class="Modal">
+    <div class="form">
+
+    <label>Enter the count</label><br>
+    <input type="number" (change)="countchanged()" [(ngModel)]="count"/>
+    <br>
+    <label>Enter the Color</label><br>
+    <input type="text" #colorvalue [(ngModel)]="color" (change)="colorchanged()"/>
+    </div>
+</div>
+
+<app-loadobject [parentdata]="count"></app-loadobject>

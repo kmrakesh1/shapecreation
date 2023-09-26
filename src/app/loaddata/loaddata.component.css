@@ -1,0 +1,17 @@
+.Modal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.square{
+    height: 100px;
+    width: 100px;
+    background-color: black;
+}
+.rectangle{
+    height: 100px;
+    width: 200px;
+    background-color: black;
+}
